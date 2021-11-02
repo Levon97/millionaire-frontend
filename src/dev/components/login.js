@@ -1,0 +1,33 @@
+import React from 'react';
+
+const Login = () => {
+
+    return (
+            <div className="container-fluid d-flex  justify-content-center align-items-center millionaireConteiner">
+                <div className="row d-flex justify-content-center ">
+                    <div className="col d-flex justify-content-center">
+                        <form>
+                            <div className="form-group ">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div className="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                            </div>                           
+                            <div className="form-group m-3">
+                            <div className="d-flex justify-content-center">
+                                <button type="submit" className="btn btn-primary blankButton">Submit</button>
+                            </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    )
+}
+
+export default Login;

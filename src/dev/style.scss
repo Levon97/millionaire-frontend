@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap.scss"; 
+$btn-hoover-color:rgb(99, 76, 0) ;
+$btn-color: rgb(160, 124, 5);
+
+body {
+  color: rgb(255, 215, 83);
+}
+
+.container-fluid {
+  min-height: 100vh;
+}
+
+
+.millionaireConteiner {
+  min-height: 100vh;
+  background-image: url('../assets/background.png');
+  background-size:cover; 
+  background-position: center;
+
+}
+
+.blankButton{
+  background-color: $btn-color;
+    border-color: $btn-color;
+}
+.blankButton:hover,
+.blankButton:active,
+.blankButton:visited,
+.blankButton:focus {
+    background-color: $btn-hoover-color;
+    border-color: $btn-hoover-color;
+}
+
+
+.blankButton:active:focus{
+box-shadow: 0 0 0 .2rem $btn-color;
+}
+
+.form-control:focus {
+
+  box-shadow: 0 0 0 .2rem $btn-color;
+}
