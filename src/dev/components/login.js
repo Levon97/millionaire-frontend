@@ -1,9 +1,10 @@
 import React from 'react';
+import BackgroundContainer from '../containers/backgroundContainer';
 
 const Login = () => {
 
     return (
-            <div className="container-fluid d-flex  justify-content-center align-items-center millionaireConteiner">
+            <BackgroundContainer>
                 <div className="row d-flex justify-content-center ">
                     <div className="col d-flex justify-content-center">
                         <form>
@@ -26,7 +27,7 @@ const Login = () => {
                         </form>
                     </div>
                 </div>
-            </div>
+            </BackgroundContainer>
     )
 }
 
