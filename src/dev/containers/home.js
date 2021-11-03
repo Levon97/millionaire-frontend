@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import React from 'react'
 
-function Home () {
+const Home = () => {
     return (
         <div className='nav-bar'>
             <Link to='/login'>Login</Link>
@@ -8,4 +9,5 @@ function Home () {
         </div>
     )
 }
+
 export default Home;

@@ -26,7 +26,8 @@ body {
 .blankButton:hover,
 .blankButton:active,
 .blankButton:visited,
-.blankButton:focus {
+.blankButton:focus
+.blankButton:disabled {
     background-color: $btn-hoover-color;
     border-color: $btn-hoover-color;
 }
